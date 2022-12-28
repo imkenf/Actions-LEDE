@@ -10,3 +10,4 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git small https://github.com/kenzok8/small
 src-git small8 https://github.com/kenzok8/small-package
 #src-git opentopd https://github.com/imkenf/sirpdboy-package
+src-git opentopd https://github.com/sirpdboy/luci-theme-opentopd
