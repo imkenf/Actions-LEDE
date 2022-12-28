@@ -9,7 +9,7 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-wget -O feeds/packages/net/ddns-scripts/files/update_cloudflare_com_v4.sh https://github.com/imkenf/Actions-LEDE/blob/main/package/update_cloudflare_com_v4.sh
+wget -O feeds/packages/net/ddns-scripts/files/update_cloudflare_com_v4.sh https://raw.githubusercontent.com/imkenf/Actions-LEDE/main/package/update_cloudflare_com_v4.sh
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
